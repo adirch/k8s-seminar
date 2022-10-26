@@ -4,8 +4,8 @@ metadata:
  name: nginx-animals
 spec:
  containers: 
- - name: nginx
-   image: nginx:1.7.9 
+ - name: spring-music
+   image: yanivomc/spring-music:latest 
    ports: 
    - containerPort: 8080
  - name: animals
