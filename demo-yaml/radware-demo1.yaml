@@ -13,8 +13,8 @@ spec:
    - containerPort: 8080
  - name: animals
    volumeMounts:
-  - name: app-storage
-    mountPath: /animals-storage
+   - name: app-storage
+     mountPath: /animals-storage
    image: supergiantkir/animals:bear
    ports: 
    - containerPort: 80
