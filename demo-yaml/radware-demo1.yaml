@@ -7,14 +7,14 @@ spec:
  - name: spring-music
    volumeMounts:
    - name: app-storage
-     mountPath: /storage
+     mountPath: /spring-music-storage
    image: yanivomc/spring-music:latest 
    ports: 
    - containerPort: 8080
  - name: animals
    volumeMounts:
   - name: app-storage
-    mountPath: /storage
+    mountPath: /animals-storage
    image: supergiantkir/animals:bear
    ports: 
    - containerPort: 80
