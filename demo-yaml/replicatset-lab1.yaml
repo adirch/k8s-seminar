@@ -30,7 +30,7 @@ spec:
      image: supergiantkir/animals:bear
      ports: 
      - containerPort: 80
-  affinity:
+   affinity:
     nodeAffinity:
       requiredDuringSchedulingIgnoredDuringExecution:
         nodeSelectorTerms:
