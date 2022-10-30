@@ -30,6 +30,8 @@ spec:
      image: supergiantkir/animals:bear
      ports: 
      - containerPort: 80
+   nodeSelector:
+    env: frontend
    volumes:
    - name: app-storage
      hostPath:
